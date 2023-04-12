@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>mountainLoginService</groupId>
+    <artifactId>mountainLoginService</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>mountainLoginService</name>
+    <description>mountainLoginService</description>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec-1.10</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/commons-codec-1.10.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec-1.11.jar</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/commons-codec-1.11.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-httpclient-3.1.jar</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/commons-httpclient-3.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-lang3-3.8.1.jar</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/commons-lang3-3.8.1.jar</systemPath>
+        </dependency>
+
+
+        <dependency>
+            <groupId>axis.jar</groupId>
+            <artifactId>axis</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/axis.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-logging-1.2.jar</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/commons-logging-1.2.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-text-1.6.jar</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/commons-text-1.6.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>fastjson-1.1.26.jar</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/fastjson-1.1.26.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>gson-2.2.4.jar</groupId>
+            <artifactId>commons</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/gson-2.2.4.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>httpclient-4.5.jar</groupId>
+            <artifactId>http</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/httpclient-4.5.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>httpcore-4.4.1.jar</groupId>
+            <artifactId>http</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/httpcore-4.4.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>httpmime-4.5.jar</groupId>
+            <artifactId>http</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/httpmime-4.5.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.wsdl_1.6.2.v201012040545.jar</groupId>
+            <artifactId>javax</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/javax.wsdl_1.6.2.v201012040545.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>jaxrpc.jar</groupId>
+            <artifactId>javax</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/jaxrpc.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>jjwt-0.9.1.jar</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/jjwt-0.9.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>shr-osfwebservice.jar</groupId>
+            <artifactId>shr</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/shr-osfwebservice.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>shr_system_web.jar</groupId>
+            <artifactId>shr</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/shr_system_web.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>slf4j-api-1.6.1.jar</groupId>
+            <artifactId>slf4j</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/slf4j-api-1.6.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+
+
+
+    </dependencies>
+
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.5.4</version>
+                <configuration>
+                    <includeSystemScope>true</includeSystemScope>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                        <exclude>
+                            <groupId>org.springframework.boot</groupId>
+                            <artifactId>spring-boot-configuration-processor</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

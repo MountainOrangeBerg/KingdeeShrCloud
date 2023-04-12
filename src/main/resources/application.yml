@@ -1,0 +1,12 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /
+  tomcat.uri-encoding: UTF-8
+
+shr:
+  sso:
+    url: http://120.25.103.60:7888/shr/OTP2sso.jsp
+  osf:
+    url: http://120.25.103.60:7888/shr
+
